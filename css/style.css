@@ -1,11 +1,15 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: "Roboto";
 }
 
 .main {
     text-align: center;
     min-height: 200vb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .header {
     background-color: #1F2937;
@@ -14,6 +18,29 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+li {
+    list-style-type: none;
+    color: #cccfd1;
+    font-size: 18px;
 }
 
 .window {
@@ -35,4 +62,5 @@ body {
 }
 
 .footertext {
+    color: #cccfd1;
 }
