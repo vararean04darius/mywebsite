@@ -9,11 +9,12 @@ body {
     min-height: 200vb;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
+    flex: 1 1 auto;
 }
 .header {
-    background-color: #1F2937;
-    color: white;
+    background: radial-gradient(#314158, #1F2937);
+    color: #F9FAF8;
     min-height: 50px;
     justify-content: center;
     align-items: center;
@@ -21,6 +22,161 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.hero {
+    background-color: #1F2937;
+    min-height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.awesome {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.placeholder {
+    width: 600px;
+    height: 223px;
+    text-align: center;
+    background-color: gray;
+    color:#E5E7Eb;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.herotitle {
+    color: #f9faf8;
+    font-size: 48px;
+    max-width: 350px;
+    font-weight: bold;
+    text-align: start;
+}
+.herotext {
+    color: #cccfd1;
+    font-size: 18px;
+    text-align: start;
+    padding-bottom: 10px;
+    padding-right: 140px;
+}
+
+.signbutton {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px 32px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+
+.info {
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.infotitle {
+    font-weight:bold;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.cardsquare {
+    width: 146px;
+    height: 146px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.cardtext {
+    text-align: center;
+    color:#1F2937;
+    padding-top: 10px;
+}
+
+.quote {
+    min-height: 420px;
+    background-color: #E5E7Eb;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+}
+
+.message {
+    font-weight: 300;
+    max-width: 1000px;
+    font-size: 36px;
+    font-style: italic;
+}
+.reference {
+    max-width: 1000px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.action {
+    min-height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    min-width: 1200px;
+    min-height: 150px;
+    justify-content:center;
+    gap: 120px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+.sbutton {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: solid white 2px;
+    padding: 8px 32px;
+    color: white;
+    font-weight: bold;
+}
+
+.stitle {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    font-weight: 700;
+}
+.undertitle {
+    color: #E5E7Eb;
 }
 
 ul {
@@ -55,7 +211,7 @@ li {
 .footer {
     background: radial-gradient(#314158, #1F2937);
     color: white;
-    min-height: 50px;
+    min-height: 100px;
     justify-content: center;
     align-items: center;
     display: flex;
